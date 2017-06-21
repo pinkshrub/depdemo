@@ -1,0 +1,8 @@
+C:\Users\Alan Weber\Desktop\teacher\csharp\logdemo\bin\Debug\netcoreapp1.1\logdemo.deps.json
+C:\Users\Alan Weber\Desktop\teacher\csharp\logdemo\bin\Debug\netcoreapp1.1\logdemo.runtimeconfig.json
+C:\Users\Alan Weber\Desktop\teacher\csharp\logdemo\bin\Debug\netcoreapp1.1\logdemo.runtimeconfig.dev.json
+C:\Users\Alan Weber\Desktop\teacher\csharp\logdemo\bin\Debug\netcoreapp1.1\logdemo.dll
+C:\Users\Alan Weber\Desktop\teacher\csharp\logdemo\bin\Debug\netcoreapp1.1\logdemo.pdb
+C:\Users\Alan Weber\Desktop\teacher\csharp\logdemo\obj\Debug\netcoreapp1.1\logdemo.AssemblyInfo.cs
+C:\Users\Alan Weber\Desktop\teacher\csharp\logdemo\obj\Debug\netcoreapp1.1\logdemo.dll
+C:\Users\Alan Weber\Desktop\teacher\csharp\logdemo\obj\Debug\netcoreapp1.1\logdemo.pdb

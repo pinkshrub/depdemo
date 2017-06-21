@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Log Reg Lyfe</title>
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+
+            form{
+                display: inline-block;
+            }
+
+            form *{
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Yo yo yo, U no wat it is</h1>
+            <form action="/register" method="post">
+                <h2>Register</h2>
+                Name: <input type="text" name="name">
+                Password: <input type="password" name="password">
+                Confirm^: <input type="password" name="password_confirm">
+                <input type="submit" value="Register!">
+            </form>
+            <form action="/login" method="post">
+                Name: <input type="text" name="name">
+                Password: <input type="password" name="password">
+                <input type="submit" value="Login!">
+            </form>
+            @{
+                foreach(var error in ViewBag.errors)
+                {
+                    //If there are any errors for a field...
+                    if(@error.Errors.Count > 0)
+                    {
+                        // We show the first error for that field
+                        <p>@error.Errors[0].ErrorMessage</p>
+                    }
+                }
+            }
+        </main>
+    </body>
+</html>
